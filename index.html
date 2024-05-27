@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Biografía</title>
+
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        /* Estilos del encabezado */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 4px solid #444;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Estilos del contenido principal */
+        main {
+            padding: 20px;
+            margin-bottom: 60px; /* Evita que el footer se solape con el contenido */
+        }
+
+        /* Estilos para las secciones */
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos específicos para cada sección */
+        section#inicio {
+            background: #e3f2fd;
+        }
+
+        section#biografia {
+            background: #ffebee;
+        }
+
+        section#contacto {
+            background: #e8f5e9;
+            padding-bottom: 60px; /* Ajuste para espacio del footer */
+        }
+
+        /* Estilos para los artículos dentro de la biografía */
+        section#biografia article {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-left: 4px solid #f44336;
+            background: #fff3f3;
+        }
+
+        /* Estilos de las imágenes */
+        section#inicio .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        section#inicio .image-container img {
+            max-width: 60%;
+            height: auto;
+            border-radius: 90%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            border-top: 4px solid #444;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilos para enlaces */
+        a {
+            color: #1e88e5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .email-link {
+            color: blue;
+        }
+
+        .external-link {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos al Blog Personal De Joaquin Cordoba Cordoba</h1>
+        <a href="" target="_blank" class="external-link">
+            <img src="foto.jpg" alt="Foto ">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <div class="image-container">
+                <a href="https://www.electrovichada.com.co" target="_blank" class="external-link">
+                    <img src="foto1.jpg" alt="Foto 1">
+                </a>
+                <a href="https://www.electrocaqueta.com.co" target="_blank" class="external-link">
+                    <img src="foto2.jpg" alt="Foto 2">
+                </a>
+                <a href="https://www.ramajudicial.gov.co/web/consejo-superior-de-la-judicatura" target="_blank" class="external-link">
+                    <img src="foto3.jpg" alt="Foto 3">
+                </a>
+                <a href="https://www.servintegral.com.co/" target="_blank" class="external-link">
+                    <img src="foto4.jpg" alt="Foto 4">
+                </a>
+                <a href="https://www.florencia-caqueta.gov.co/" target="_blank" class="external-link">
+                    <img src="foto5.jpg" alt="Foto 5">
+                </a>
+                <a href="https://www.ejemplo6.com" target="_blank" class="external-link">
+                    <img src="foto6.jpg" alt="Foto 6">
+                </a>
+            </div>
+            <p>Bienvenidos a mi blog. Aquí encontrarás información sobre mi vida, mi carrera, empresas con las que laboro y mis logros, así como los links de algunas.</p>
+        </section>
+        
+        <section id="biografia">
+            <h2>Biografía</h2>
+            <article>
+                <h3>Primeros Años</h3>
+                    <p> Nací en Bogotá en 1962. Mi familia originalmente era de un lindo pueblo de Boyacá llamado <a href="https://www.chita-boyaca.gov.co/" target="_blank" class="external-link">Chita</a>, un lugar pintoresco y lleno de tradiciones. Sin embargo, debido a la violencia que azotó la región, mis padres se vieron obligados a abandonar su hogar y buscar un nuevo comienzo en la capital. Llegar a Bogotá no fue fácil; los primeros años fueron especialmente difíciles, ya que mis padres tuvieron que empezar desde cero.
+                        La adaptación a la vida urbana representó un gran desafío. Mi padre encontró trabajo en la construcción, mientras que mi madre trabajaba como costurera para ayudar a mantener a la familia. Vivíamos en un pequeño apartamento, y todos los miembros de la familia tuvieron que contribuir. Los mayores de la familia, incluidos mis hermanos y yo, ayudamos en lo que pudimos. Recuerdo que los fines de semana se dedicaban a construir nuestra nueva casa, ladrillo a ladrillo, con la ayuda de vecinos y amigos.
+                        La solidaridad y el esfuerzo colectivo fueron fundamentales para superar esos tiempos difíciles. Aunque carecíamos de muchas comodidades, esos años nos enseñaron el valor del trabajo duro, la perseverancia y el apoyo mutuo. Estas experiencias tempranas moldearon mi carácter y mi visión del mundo, enseñándome a valorar las pequeñas cosas y a nunca dar nada por sentado.
+                        A pesar de las adversidades, siempre hubo un fuerte sentido de comunidad y esperanza. Mi educación se convirtió en una prioridad para mis padres, quienes hicieron todo lo posible para asegurarse de que yo y mis hermanos tuviéramos acceso a una buena educación, algo que ellos consideraban esencial para nuestro futuro.
+                    </p>                
+            </article>
+
+            <article>
+                <h3>Educación</h3>
+                <p>Mi trayectoria educativa es amplia y diversa. Aquí se detallan los niveles educativos que he alcanzado:</p>
+                <ul>
+		            <li><strong>Primaria:</strong> Colegio Parroquial San José</li>
+                    <li><strong>Bachillerato:</strong> Colegio Departamental Integrado de Fontibón</li>
+                    <li><strong>Universitarios:</strong>
+                        <ul>
+                            <li>Ingeniero Catastral y Geodesta de la Universidad Distrital de Bogotá</li>
+                            <li>5 Semestres de Administración de Empresas de la Universidad de La Salle</li>
+                            <li>6 Semestres de Ingeniería Informática de la UNIR</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Carrera Profesional</h3>
+                <p>Desde el inicio de mi carrera profesional, me   dedique en tres áreas clave: los servicios públicos, los trabajos con alcaldías y el sector empresarial. En el ámbito de los servicios públicos, comenzó trabajando en proyectos relacionados con acueducto, alcantarillado, aseo y energia electrica donde rápidamente  gane la reputación de ser un profesional eficiente y confiable. Simultáneamente, trabaje con varias alcaldías, aportando su experiencia en desarrollo de software para el cobro de impuestos: predial e Industria y comercio, asi como en otrows
+                    ambitos como son estreatificacion, nomenclatura, creacioon de empresas de servicios publicos, titulacion de predios y estudios de suelos  que mejoraron la infraestructura y calidad de vida de las comunidades. Finalmente, su espíritu emprendedor lo llevó a incursionar en el sector empresarial, donde fundó y desarrolló negocios que se convirtieron en referentes en su campo</p>
+
+                    <p>Mi carrera profesional comenzó en los años 90, una vez finalizada mi formación como ingeniero catastral y geodesta en la Universidad Distrital. En aquellos años, surgió el furor de los computadores personales, lo que me llevó a enfocarme en el aprendizaje autónomo de sistemas, aprendiendo Dbase, Clipper, Pascal, Cobol, entre otros, y dedicándome a la reparación de computadores y asesoría a empresas en su implementación.</p>
+                    <p>Durante mi carrera como ingeniero, realicé la tesis titulada "Sistematización de la Red Geodésica Nacional" en colaboración con el Instituto Geográfico Agustín Codazzi, la cual obtuvo la aprobación de tesis laureada. Por este logro, fui designado por la universidad para representarla en el Segundo Congreso de Ciencia y Tecnología y el Primer Congreso Latinoamericano, realizado en el Centro de Convenciones Gonzalo Jiménez de Quesada en Bogotá.</p>
+                    <p>Posteriormente, gracias a mi experiencia, fui contratado por el Consejo Superior de la Judicatura para llevar a cabo el primer estudio sobre la situación de la justicia en Colombia. Este trabajo fue presentado ante el Congreso de la República y recibió elogios por sus conclusiones. Por este logro, el Consejo Superior me solicitó escribir un libro sobre los resultados, lo que resultó en el libro denominado "Actividad Judicial en Colombia 1996".</p>
+                    <p>Con la experiencia adquirida, dirigí mis esfuerzos hacia la creación de un sistema informático en Clipper para empresas de servicios públicos, inicialmente en plataforma DOS. Después de su creación, este sistema se implementó en más de 50 municipios del país, abarcando más de 9 departamentos.</p>
+                    <p>Gracias a mi amplia experiencia en servicios públicos, he consolidado una red de clientes en este sector</p>
+    
+
+                <h2>Experiencia en Empresas de Servicios Públicos de Acueducto, Alcantarillado Aseo y Energía Eléctrica</h2>
+                    <p>Contamos con una vasta experiencia en la sistematización de más de 40 empresas de energía eléctrica de la Zona No Interconectada (ZNI). Inicialmente, comenzamos trabajando con Clipper en los primeros días del sistema operativo DOS. Posteriormente, avanzamos en el diseño y desarrollo utilizando Visual FoxPro (VFP), integrando bases de datos como MySQL, PostgreSQL o cualquier otra plataforma de programación SQL.
+                    Adicionalmente, hemos trabajado con empresas de acueducto, alcantarillado y aseo, lo que nos ha proporcionado una experiencia integral en todos los servicios básicos. Esta experiencia nos permite ampliar y profundizar en los conceptos de gestión y operación de servicios públicos, asegurando soluciones eficientes y adaptadas a las necesidades específicas de cada sector.
+                    En resumen, nuestro recorrido abarca desde la implementación inicial de sistemas en entornos de energía eléctrica hasta la integración y gestión de servicios de agua y saneamiento, ofreciendo un enfoque holístico y una comprensión detallada de las particularidades de cada servicio público.</p>
+                    <h3>Nariño</h3>
+                    <ul>
+                        <li><a href="#">Empresas de Servicios Públicos de Tumaco - Nariño</a></li>
+                        <li><a href="#">Empresas de Energía Eléctrica de Salahonda, Satinga, La Tola, El Charco, e Iscuande - Nariño</a></li>
+                    </ul>
+                    
+                    <h3>Cauca</h3>
+                    <ul>
+                        <li><a href="#">Empresas de Servicios Públicos de Corinto - Cauca</a></li>
+                        <li><a href="#">Empresas de Energía Eléctrica de Guapi y Timbiquí - Cauca</a></li>
+                    </ul>
+                    
+                    <h3>Chocó</h3>
+                    <ul>
+                        <li><a href="#">Empresas de Energía Eléctrica de Capurganá, Riosucio, Acandí, Unguía, Carmen del Darién, Bojayá, Nuquí, Juradó, Bahía Solano y Pizarro - Chocó</a></li>
+                    </ul>
+                    
+                    <h3>Vichada</h3>
+                    <ul>
+                        <li><a href="#">Empresas de Energía Eléctrica y Servicios Públicos de Puerto Carreño, La Primavera, Santa Rosalía - Vichada</a></li>
+                    </ul>
+                    
+                    <h3>Meta</h3>
+                    <ul>
+                        <li><a href="#">Empresas de Servicios Públicos de Puerto Gaitán y La Uribe - Meta</a></li>
+                    </ul>
+                    
+                    <h3>Caquetá</h3>
+                    <ul>
+                        <li><a href="#">Empresas de Servicios Públicos de Puerto Rico - Caquetá</a></li>
+                        <li><a href="#">Empresas de Servicios Públicos de El Doncello - Caquetá</a></li>
+                        <li><a href="#">Empresas de Servicios Públicos de El Paujil - Caquetá</a></li>
+                        <li><a href="#">Empresas de Servicios Públicos de La Montañita - Caquetá</a></li>
+                        <li><a href="#">Empresas de Servicios Públicos de San José del Fragua - Caquetá</a></li>
+                        <li><a href="#">Empresas de Servicios Públicos de Solita - Caquetá</a></li>
+                        <li><a href="#">Empresas de Servicios Públicos de Solano - Caquetá</a></li>
+                        <li><a href="#">Empresas de Servicios Públicos de Albania - Caquetá</a></li>
+                    </ul>
+                    
+                    <h3>Huila</h3>
+                    <ul>
+                        <li><a href="#">Empresas de Servicios Públicos de Gigante y Aipe - Huila</a></li>
+                    </ul>
+                    
+                    <h3>Boyacá</h3>
+                    <ul>
+                        <li><a href="#">Empresa de Servicios Públicos de Garagoa </a></li>
+                    </ul>
+                    
+                    <h3>Cundinamarca</h3>
+                    <ul>
+                        <li><a href="#">Empresa de Servicios Públicos de Nilo </a></li>
+                    </ul>
+                    
+                    <h3>Casanare</h3>
+                    <ul>
+                        <li><a href="#">Empresa de Servicios Públicos de Monterrey </a></li>
+                    </ul>
+        
+                    <h3>Putumayo</h3>
+                    <ul>
+                        <li><a href="#">Empresa de Servicios Públicos de Puerto Leguizamo</a></li>
+                    </ul>
+        
+                    
+                    <h3>Guainía</h3>
+                    <ul>
+                        <li><a href="#">Empresa de Servicios Públicos de Inírida </a></li>
+                    </ul>
+        
+                <h2>Experiencia en Alcaldias</h2>
+                    <p>Contamos con amplia experiencia trabajando con alcaldías en diversos contratos. Entre nuestros proyectos más destacados se incluyen la creación de software para la gestión de impuestos públicos, la implementación de sistemas de estratificación social, la formación de empresas de servicios públicos y la elaboración de nomenclaturas urbanas.
+                        Hemos desarrollado soluciones tecnológicas personalizadas para mejorar la eficiencia y transparencia en la administración de impuestos públicos, asegurando una gestión más precisa y efectiva. En el ámbito de la estratificación social, hemos implementado sistemas que permiten una clasificación equitativa y justa de la población, facilitando la toma de decisiones y la planificación de políticas públicas.
+                        Además, nuestra experiencia abarca la creación y gestión de empresas de servicios públicos, incluyendo acueducto, alcantarillado, aseo y energía eléctrica. Esto nos ha permitido aportar a la mejora de la infraestructura y la calidad de los servicios ofrecidos a la comunidad.
+                        Finalmente, hemos trabajado en la elaboración de nomenclaturas urbanas, contribuyendo a la organización y actualización de la información geográfica y direccional de las ciudades, lo cual es esencial para una administración municipal eficiente y para el servicio a los ciudadanos.
+                        En resumen, nuestra colaboración con diversas alcaldías ha abarcado una variedad de áreas clave, proporcionando soluciones integrales y mejorando significativamente la gestión municipal y los servicios ofrecidos a la comunidad.</p>
+                        <p>El Trabajar en el sector de servicios publicos abre caminos fuerete para trabajar de la mano con las alcaldias es por esta razon que Como Ingeniero Catastral 
+                            tambien elenoros diferentes trabajos en este sector como es:</p>
+                          <ul>
+                              <li>Estratificacion urbana y rutal</li>
+                              <li>Topografia y estudio de suelos</li>
+                              <li>Creacion de Empresas de servicios publicos </li>
+                              <li>Titulacion de Predios</li>
+                              <li>Avaluos Catastrales</li>
+                          </ul>
+                          <h3>Choco</h3>
+                          <ul>
+                              <li>Alcaldia Municipal de Riosucio Choco</li>
+                              <li>Alcaldia Municipal de Unguia Choco</li>
+                              <li>Alcaldia Municipal de Carmen del Darien </li>
+                              <li>Alcaldia Municipal de Rio Iro Choco</li>
+                              <li>Alcaldia Municipal de Ismina Choco</li>
+                              <li>Alcaldia Municipal de Ismina Choco</li>
+                          </ul>
+           
+                          <h3>Caqueta</h3>
+                          <ul>
+                              <li>Alcaldia Municipal de San Vicente</li>
+                              <li>Alcaldia Municipal de El Doncello</li>
+                              <li>Alcaldia Municipal de Cartagena Del Chaira</li>
+                              <li>Alcaldia Municipal de El Paujil</li>
+                              <li>Alcaldia Municipal de La Montañita</li>
+                              <li>Alcaldia Municipal de Curillo</li>
+                              <li>Alcaldia Municipal de Milan</li>
+                              <li>Alcaldia Municipal de Solano</li>
+          
+                          </ul>
+           
+                          <h3>Putumayo</h3>
+                          <ul>
+                              <li>Alcaldia Municipal de Puerto Leguizamo</li>
+          
+                          </ul>
+                
+                          <h3>Vichada</h3>
+                          <ul>
+                              <li>Alcaldia Municipal de Puerto Carreño</li>
+                              <li>Alcaldia Municipal de La Primavera</li>
+                              <li>Alcaldia Municipal de Santa Rosalia</li>
+          
+                          </ul>          
+                <h2>Experiencia en Sector Empresarial</h2>
+                    <p>Debido a la cantidad de trabajo realizado en el año 2008, fundé Galaxso & Cía Ltda., la cual ha continuado en crecimiento en sus diferentes áreas hasta el día de hoy. En 2022, se creó una segunda empresa dedicada exclusivamente a manejar el sector eléctrico como empresa de servicios públicos.
+                        En 2023, Galaxso ingresó como socio en dos empresas de servicios, lo que ha incrementado significativamente su participación y presencia en el mercado. Este crecimiento refleja nuestro compromiso y capacidad para ofrecer soluciones innovadoras y eficientes en diversos sectores de servicios públicos</p>
+                        <ul>
+                            <li>Producción de software para empresas de servicios públicos</li>
+                            <li>División de tránsito y transporte</li>
+                            <li>Auditorías en servicios públicos</li>
+                            <li>Desarrollo de aplicativos y apps</li>
+                            <li>Estudios De Tarifas</li>
+                            <li>Estrafificacion</li>
+                            <li>Nomenclatura Domiciliaria</li>
+                            <li>Montaje de sistema solares</li>
+                            <li>Montaje de redes lorawan: Telemedida y control de procesos en plantas de tratamiento  </li>
+                        </ul>
+                        <p>Galaxso actualmente es socia de otras empresas de servicios públicos:</p>
+                        <ul>
+                            <li>Empresa de Servicios Públicos de Inírida</li>
+                            <li>Empresa de Servicios Públicos de Puerto Carreño</li>
+                        </ul>
+
+            </article>
+        </section>            
+
+
+        
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:galaxsomundo@gmail.com" class="email-link">galaxsomundo@gmail.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Biografía. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
